@@ -1,0 +1,178 @@
+/* 
+Body
+
+body {
+	padding-top: 0;
+}
+
+*/
+
+body {
+	background-color: rgb(236, 236, 236);
+}
+
+.row-pad {
+	padding: 2em;
+}
+
+/*
+RESPONSIVE TEXT
+*/
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+/*CHANGING SOME BOOTS TRAP NAV*/
+.navbar-custom { 
+    background-color: #F5D236; 
+} 
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #223D94;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ADJUSTING CUROSEL */
+.img-car {
+	max-height: 100vh; 
+	min-height: 100vh;
+	object-fit: cover;
+
+	filter: blur(0px);
+}
+
+.title-car {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.title-car-text {
+	color: rgb(187, 255, 255);
+	text-shadow: 1px 1px 30px black, 2px 2px 20px black;
+}
+
+/* adjusting div card */
+
+/* .accordion .card {
+    overflow: inherit;
+} */
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #223D94;
+    font-size: 20px;
+}
+
+.navbar-custom .dropdown-item {
+    color: #223D94;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*same COLOR*/
+.samecolor {
+	color: #223D94;
+}
+
+/* CONTAINER */
+.section {
+	height: 92vh;
+	width: 100%;
+}
+
+/*TOP*/
+.topbar {
+	top: 0;
+	z-index: 1;
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	background-color: #F5D236;
+}
+
+.topbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.topbar li {
+  float: left;
+}
+
+.topbar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.socialIcons {
+	height: 2rem;
+	width: auto;
+}
+
+#albino1 {
+	height: 15em;
+	width: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+}
+
+#danoitrovi {
+	background-color: beige; 
+	padding: 20px 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#danoitrovi button {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #F5D236;
+	padding:0.3em 1.2em;
+	margin: none;
+	border-radius: 2em;
+ 	font-weight: 300;
+}
+
+/*ORARI*/
+.tableorari {
+	background-color: rgba(125, 125, 125, 0.5); 
+	padding: 20px 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size: 2em;
+}
+
+.tableorari td {
+	padding: 20px 20px;
+}
+
+.buttoncontact {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #F5D236;
+	padding: 0.5em 1.7em;
+	margin: none;
+	border-radius:2em;
+ 	font-weight: 300;
+}
+
+.buttoncontact a {
+	text-decoration: none;
+	color: #223D94;
+	font-size: 1.3em;
+}
+
+.titlecont h3 {
+	display: inline-block;
+}
+
+/*LUOGO*/
